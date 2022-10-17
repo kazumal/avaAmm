@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import styles from "./Details.module.css";
-import { TokenType, AmmType } from "../../hooks/useContracts";
+import { TokenType, AmmType } from "../../hooks/useContract";
 import { ethers } from "ethers";
 import { formatWithoutPrecision } from "../../utils/format";
 
